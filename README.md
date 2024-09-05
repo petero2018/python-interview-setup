@@ -31,7 +31,7 @@ You can validate your setup by navigating to the `setup` folder and running:
 pytest .
 ```
 
-Output:
+### Raw output:
 ```
 ❯ pytest .
 ==================================================================== test session starts =====================================================================
@@ -41,3 +41,6 @@ test_setup.py .                                                                 
 
 ===================================================================== 1 passed in 0.00s ======================================================================
 ```
+
+### Visual output:
+![Desired output](https://raw.githubusercontent.com/oaknorthbank/python-interview-setup/main/desired_output.png)
