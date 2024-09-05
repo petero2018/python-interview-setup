@@ -7,7 +7,7 @@ All of our Python exercises require the following dependencies to be installed a
 * Python (version 3.8 or higher)
 * Pytest (version 6.0 or higher)
 
-## Instalation
+## Installation
 Please ensure that your Python version meets our expectations:
 ```bash
 python --version
