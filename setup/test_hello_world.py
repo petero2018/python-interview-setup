@@ -1,3 +1,5 @@
+from python_interview.hello import hello
+
+
 def test_hello_world_output():
-    message = "hello world"
-    assert message == "hello world"
+    assert hello("world") == "hello world"
