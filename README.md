@@ -44,3 +44,21 @@ test_setup.py .                                                                 
 
 ### Visual output:
 ![Desired output](https://raw.githubusercontent.com/oaknorthbank/python-interview-setup/main/desired_output.png)
+
+
+
+local setup:
+
+```
+pyenv versions
+pyenv install -l
+pyenv install 3.13.7 
+pyenv local 3.13.7
+```
+
+```
+poetry env list --full-path
+poetry env use 3.13.7  Activates or creates a new virtualenv for the current project.
+eval $(poetry env activate)
+which python
+```
